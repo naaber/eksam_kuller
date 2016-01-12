@@ -1,0 +1,7 @@
+CREATE TABLE courier_service (
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	package_description TEXT,
+	package_yes_no INT,
+	package_en_route INT,
+	package_received INT
+);
