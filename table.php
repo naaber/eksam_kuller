@@ -52,7 +52,7 @@
 			} else {
 				echo "<td><a href='?update_2=".$orders_array[$i]->id."'>Pakk teel</a></td>";
 			}
-			if($orders_array[$i]->received == "1"){
+			if($orders_array[$i]->received == "1" or $orders_array[$i]->en_route == ""){
 				echo "<td></td>";
 			} else {
 				echo "<td><a href='?update_3=".$orders_array[$i]->id."'>Pakk kättesaadud</a></td>";
